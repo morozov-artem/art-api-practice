@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="22" failures="0" errors="0" time="6.967">
+  <testsuite name="categories tests" errors="0" failures="0" skipped="0" timestamp="2024-07-05T01:13:19" time="3.18" tests="2">
+    <testcase classname="categories tests POST /upload/single" name="categories tests POST /upload/single" time="0.607">
+    </testcase>
+    <testcase classname="categories tests POST /upload/multiple" name="categories tests POST /upload/multiple" time="0.57">
+    </testcase>
+  </testsuite>
+  <testsuite name="POC tests" errors="0" failures="0" skipped="0" timestamp="2024-07-05T01:13:19" time="3.514" tests="6">
+    <testcase classname="POC tests GET requests GET /posts" name="POC tests GET requests GET /posts" time="0.115">
+    </testcase>
+    <testcase classname="POC tests GET requests GET /comments with query params" name="POC tests GET requests GET /comments with query params" time="0.285">
+    </testcase>
+    <testcase classname="POC tests POST requests POST /posts" name="POC tests POST requests POST /posts" time="0.28">
+    </testcase>
+    <testcase classname="POC tests PUT requests PUT /posts{id}" name="POC tests PUT requests PUT /posts{id}" time="0.336">
+    </testcase>
+    <testcase classname="POC tests PATCH requests PATCH /posts{id}" name="POC tests PATCH requests PATCH /posts{id}" time="0.333">
+    </testcase>
+    <testcase classname="POC tests DELETE requests DELETE /posts{id}" name="POC tests DELETE requests DELETE /posts{id}" time="0.129">
+    </testcase>
+  </testsuite>
+  <testsuite name="categories tests" errors="0" failures="0" skipped="0" timestamp="2024-07-05T01:13:19" time="3.905" tests="3">
+    <testcase classname="categories tests Create &amp; Fetch categories POST /categories" name="categories tests Create &amp; Fetch categories POST /categories" time="0.013">
+    </testcase>
+    <testcase classname="categories tests Create &amp; Fetch categories PUT /categories/{id}" name="categories tests Create &amp; Fetch categories PUT /categories/{id}" time="0.472">
+    </testcase>
+    <testcase classname="categories tests Create &amp; Fetch categories DELETE /categories{id}" name="categories tests Create &amp; Fetch categories DELETE /categories{id}" time="0.441">
+    </testcase>
+  </testsuite>
+  <testsuite name="Brands tests" errors="0" failures="0" skipped="0" timestamp="2024-07-05T01:13:19" time="6.733" tests="11">
+    <testcase classname="Brands tests Create &amp; Fetch brands POST /brands" name="Brands tests Create &amp; Fetch brands POST /brands" time="0.004">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands Schema Verification - Name is a mandatory field" name="Brands tests Create &amp; Fetch brands Schema Verification - Name is a mandatory field" time="0.284">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands Schema Verification - Min char length for name &gt; 1" name="Brands tests Create &amp; Fetch brands Schema Verification - Min char length for name &gt; 1" time="0.286">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands Schema Verification - Max char length for name is 30" name="Brands tests Create &amp; Fetch brands Schema Verification - Max char length for name is 30" time="0.281">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands Schema Verification - Description must be a string" name="Brands tests Create &amp; Fetch brands Schema Verification - Description must be a string" time="0.318">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands creation of duplicate brand not allowed" name="Brands tests Create &amp; Fetch brands creation of duplicate brand not allowed" time="0.38">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands GET /brands/{id}" name="Brands tests Create &amp; Fetch brands GET /brands/{id}" time="0.363">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands GET /brands/invalid_id should throw an error" name="Brands tests Create &amp; Fetch brands GET /brands/invalid_id should throw an error" time="0.279">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands PUT /brands/invalid_id should throw an error" name="Brands tests Create &amp; Fetch brands PUT /brands/invalid_id should throw an error" time="0.286">
+    </testcase>
+    <testcase classname="Brands tests Create &amp; Fetch brands DELETE /brands/invalid_id should throw an error" name="Brands tests Create &amp; Fetch brands DELETE /brands/invalid_id should throw an error" time="0.279">
+    </testcase>
+    <testcase classname="Brands tests UPDATE AND DELETE requests UPDATE AND DELETE /brands" name="Brands tests UPDATE AND DELETE requests UPDATE AND DELETE /brands" time="1.272">
+    </testcase>
+  </testsuite>
+</testsuites>
