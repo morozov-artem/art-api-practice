@@ -23,25 +23,10 @@ npm install
 
 ---
 
-## 🛠️ Running the API
-
-```bash
-npm run build      # Transpile TypeScript
-npm start          # Start the server
-```
-
-Or for development:
-
-```bash
-npm run dev        # Start the server in watch mode
-```
-
----
-
 ## ✅ Running Tests
 
 ```bash
-npm test
+npx jest specs/{file name}.ts
 ```
 
 Test files are located in the `specs/` directory and are written using Jest.
